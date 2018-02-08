@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "config": "^1.29.4",
     "express": "^4.16.2",
     "simple-headless-chrome": "^4.3.10"
   }

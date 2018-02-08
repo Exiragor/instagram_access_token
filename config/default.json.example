@@ -1,0 +1,11 @@
+{
+    "Server": {
+        "port": 5000,
+        "backUrl": "/back/"
+    },
+    "Instagram" : {
+        "authUrl": "", // example: https://api.instagram.com/oauth/authorize/?client_id=YOUR_APP_CODE&redirect_uri=http://localhost:5000/back/&response_type=code
+        "login": "Your_login_for_instagram",
+        "password": "your_pass" 
+    }
+}

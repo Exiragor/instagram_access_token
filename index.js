@@ -1,12 +1,15 @@
+import { $for } from 'core-js/library/web/timers';
+
 const Instagram = require('./instagram');
+const config = require('config')
 
 // Params for your app
 
-const login = ''
-const pass = ''
-const authUrl = '' // example: https://api.instagram.com/oauth/authorize/?client_id=YOUR_APP_CODE&redirect_uri=http://localhost:5000/back/&response_type=code
-const backUrl = '' // example: /back/
-const port = 5000
+const login = config.get('Instagram.login')
+const pass = config.get('Instagram.password')
+const authUrl = config.get('Instagram.authUrl') 
+const backUrl = config.get('Server.backUrl')
+const port = config.get('Server.port')
 
 // end params
 
