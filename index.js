@@ -1,5 +1,3 @@
-import { $for } from 'core-js/library/web/timers';
-
 const Instagram = require('./instagram');
 const config = require('config')
 
